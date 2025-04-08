@@ -1,0 +1,17 @@
+.employee-container{
+    margin-left: 60px;
+}
+.progress1{
+    width: 141px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #828282;
+    margin-top: 25px;
+}
+.progress2{
+    width: 240px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #BDBDBD;
+    margin-top: 20px;
+}

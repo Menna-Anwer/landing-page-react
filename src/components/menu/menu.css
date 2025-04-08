@@ -1,0 +1,21 @@
+.menu-container {
+  width: 510px;
+  height: 59px;
+  border: 1px solid #a3dc2f;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 48px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.nav {
+  margin-left: 55px;
+}
+.nav-link {
+  padding: 10px;
+}
+.nav-link:hover {
+  background-color: #a3dc2f;
+  border-radius: 48px;
+}

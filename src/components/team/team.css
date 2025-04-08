@@ -1,0 +1,29 @@
+.img-container{
+    display: flex;
+    position: relative;
+    width: 100px;
+    margin: auto;
+}
+
+img{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+   
+}
+.img1{
+    position: absolute;
+}
+
+.img2{
+    position: absolute;
+    left: 22px;
+}
+.img3{
+    position: absolute;
+    left: 43px;
+}
+.img4{
+    position: absolute;
+    left: 66px;
+}

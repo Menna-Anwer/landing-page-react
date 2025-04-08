@@ -1,0 +1,56 @@
+.automation-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+  background: white;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+}
+.new-container {
+  background: #a3dc2f;
+  width: 57px;
+  padding: 5px 6px 4px 13px;
+  border-radius: 20px;
+  color: white;
+  margin-right: 5px;
+}
+.solutions-container {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+h1 {
+  font-size: 72px;
+}
+p {
+  color: #828282;
+}
+.input-container {
+  position: relative !important;
+  width: 640px;
+  margin: auto;
+  height: 72px;
+}
+.form-control {
+    height: 65px;
+    border-radius: 50px;
+    padding-left: 30px;
+}
+.btn-container {
+  position: "absolute" !important;
+  right: 5px;
+  top: 44%;
+  transform: translateY(-50%);
+  background: black;
+  color: white;
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+}
+.text-user{
+    text-align: center;
+    margin-top: 42px;
+    font-size: 13px;
+}
