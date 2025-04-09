@@ -1,0 +1,46 @@
+.tinyLineChart-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineChart1{
+    width: 270px;
+    margin: auto;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin-top: 68px;
+}
+.lineChart2{
+    width: 90%;
+    margin: auto;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.tinyLineChart-container1{
+    width: 300px;
+    height: 496px;
+}
+.tinyLineChart-container2{
+    width: 645px;
+    height: 496px;
+}
+.text-muted1{
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.text-muted2{
+    width: 424px;
+    text-align: center;
+    margin: auto;
+    margin-top: 67px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+

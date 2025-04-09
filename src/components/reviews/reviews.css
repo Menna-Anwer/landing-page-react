@@ -1,0 +1,33 @@
+.reviews-btn {
+  width: 140px;
+  height: 42px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  background: #fefefc;
+  border: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-top: 200px;
+}
+
+.reviews-heading {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+.reviews-text {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: #9b9ca1;
+  width: 1051px;
+  height: 92px;
+  margin: auto;
+  margin-top: 30px;
+}

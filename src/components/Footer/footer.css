@@ -1,0 +1,50 @@
+.logo-footer {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16.2px;
+  vertical-align: middle;
+}
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4f4f4f;
+  margin-top: 20px;
+}
+.link-footer {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  color: #4f4f4f;
+  margin-top: 20px;
+}
+
+.input-footer {
+  position: relative !important;
+  width: 430px;
+  margin: auto;
+  height: 44px;
+}
+.form-control {
+  height: 54px;
+  border-radius: 8px;
+  padding-left: 30px;
+}
+.btn-footer {
+  position: "absolute" !important;
+  right: 0px;
+  top: 58%;
+  transform: translateY(-50%);
+  background: #a3dc2f;
+  color: white;
+  width: 166px;
+  height: 53px;
+  border-radius: 0px 8px 8px 0px;
+}
+.copyright{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+}

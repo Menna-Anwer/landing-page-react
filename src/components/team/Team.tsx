@@ -5,18 +5,18 @@ import user4 from '../../assets/a3d54c7fb65e69df645f3b5d1ba1156c.png'
 import "./team.css"
 const Team = () => {
   return (
-    <div className='img-container'>
+    <div className='team-img-container'>
       <div >
-        <img className='img1' src={user1}/>
+        <img className='team-img1' src={user1}/>
       </div>
       <div>
-        <img className='img2' src={user2}/>
+        <img className='team-img2' src={user2}/>
       </div>
       <div>
-        <img className='img3' src={user3}/>
+        <img className='team-img3' src={user3}/>
       </div>
       <div>
-        <img className='img4' src={user4}/>
+        <img className='team-img4' src={user4}/>
       </div>
     </div>
   )

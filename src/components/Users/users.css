@@ -1,0 +1,47 @@
+.big-container{
+    display: flex;
+    position: relative;
+    width: 264px;
+    margin: auto;
+    height: 264px;
+    align-items: center;
+    background: #F4F4F4;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.img-container{
+    display: flex;
+    position: absolute;
+    width: 208px;
+    margin: auto;
+    height: 208px;
+    align-items: center;
+    background: #E5EADB;
+    border-radius: 50%;
+    right: 28px;
+    padding-bottom: 20px;
+}
+
+img{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
+}
+.img1{
+    left: 43px;
+}
+
+.img2{
+    left: 63px;
+}
+.img3{
+    left: 85px;
+}
+.img4{
+    left: 109px;
+}
+.img5{
+    right: 43px;
+}
