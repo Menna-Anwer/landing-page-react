@@ -5,20 +5,29 @@
     margin: auto;
 }
 
-img{
+.team-img1{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+}
+.team-img2{
     width: 35px;
     height:35px ;
     border-radius: 50%;
     position: absolute;
-   
-}
-
-.team-img2{
     left: 22px;
 }
 .team-img3{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
     left: 43px;
 }
 .team-img4{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
     left: 66px;
 }

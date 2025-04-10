@@ -7,19 +7,22 @@ import Menu from "../components/menu/Menu"
 import LineDashboard from "../components/LineDashboard/LineDashboard"
 import Reviews from "../components/reviews/Reviews"
 import Footer from "../components/Footer/Footer"
+import CTA from "../components/CTA/CTA"
 
 const LandingPage = () => {
   return (
     <div>
       <NavBar />
-      <Container>
+     
         <Header />
         <Dashboard />
         <Menu/>
         <LineDashboard/>
-        <Reviews/>
-        <Footer/>
-      </Container>
+        <Reviews/>    
+        <CTA/>
+      <div className="bg-footer">
+        <Footer />
+       </div>
     </div>
   )
 }

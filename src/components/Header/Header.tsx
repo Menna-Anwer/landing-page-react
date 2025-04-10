@@ -1,8 +1,9 @@
+import { Container } from "react-bootstrap"
 import Team from "../team/Team"
 import "./header.css"
 const Header = () => {
     return (
-        <div>
+        <Container>
             <div className="automation-container mt-5 mb-2">
                 <div className="new-container">New</div> <div>Introducing AI Automation </div>
             </div>
@@ -29,12 +30,11 @@ const Header = () => {
             </div>
             <div>
                 <div>
-                <Team/>
+                    <Team />
                 </div>
                 <p className="text-user mb-5">1,200+ reviews (4.9 of 5)</p>
             </div>
-        </div>
-
+        </Container>
     )
 }
 

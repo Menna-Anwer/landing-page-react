@@ -1,12 +1,13 @@
+import { Container } from "react-bootstrap"
 import CardManagement from "../cardManagement/CardManagement"
 import TinyLineChart from "../TinyLineChart/TinyLineChart"
 
 const LineDashboard = () => {
   return (
-    <div>
+    <Container>
       <TinyLineChart/>
       <CardManagement/>
-    </div>
+    </Container>
   )
 }
 

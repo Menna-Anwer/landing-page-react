@@ -24,24 +24,41 @@
 }
 
 img{
+ 
+}
+.img1{
     width: 35px;
     height:35px ;
     border-radius: 50%;
     position: absolute;
-}
-.img1{
     left: 43px;
 }
 
 .img2{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
     left: 63px;
 }
 .img3{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
     left: 85px;
 }
 .img4{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
     left: 109px;
 }
 .img5{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+    position: absolute;
     right: 43px;
 }
