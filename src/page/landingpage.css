@@ -1,4 +1,10 @@
-.bg-footer{
-    background-color: #f4f4f4 !important;
-    padding-top: 100px;
+.bg-footer {
+    --background: black;
+    --foreground:  #f4f4f4 !important;
+  padding-top: 100px;
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --foreground: #f6f6f6;
 }

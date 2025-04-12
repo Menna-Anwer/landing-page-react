@@ -4,7 +4,7 @@ import './CTA.css'
 const CTA = () => {
     return (
         <Container>
-            <div className="card-container">
+            <div className="card-container CTA-container">
                 <div  className="text-CTA-container">
                     <div className="text-CTA">
                         Let’s Upgrade your

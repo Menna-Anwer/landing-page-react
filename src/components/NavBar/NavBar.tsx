@@ -1,6 +1,16 @@
 import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
 import "./navBar.css"
+import { useTheme } from "next-themes"
+import { useEffect, useState } from "react"
 const NavBar = () => {
+
+  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+  if (!mounted) return null
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
     <Container >
@@ -27,7 +37,7 @@ const NavBar = () => {
           <Nav.Link href="#action2">Pricing</Nav.Link>
 
         </Nav>  
-          <Button className ="navbar-btn">Get started</Button>
+          <Button className ="navbar-btn"   onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} > {theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode'}</Button>
       </Navbar.Collapse>
     </Container>
   </Navbar>
