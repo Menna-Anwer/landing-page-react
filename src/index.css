@@ -11,8 +11,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-[data-theme='dark'] {
-  --background: black;
-  --foreground:#F6F6F6;
-}

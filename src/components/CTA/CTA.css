@@ -1,11 +1,11 @@
 .CTA-container {
   width: 100%;
   border-radius: 40px;
-  border: 1px solid black;
-  display: flex;
+    display: flex;
   padding: 15px;
   justify-content: space-between;
   margin-top: 100px;
+  background: white;
 
 }
 .text-CTA-container{

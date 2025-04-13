@@ -1,10 +1,11 @@
 import { Container } from "react-bootstrap"
 import Team from "../team/Team"
 import "./header.css"
+// import Buttons from "../Buttons/Buttons"
 const Header = () => {
     return (
         <Container>
-            <div className="automation-container mt-5 mb-2">
+            <div className="automation-container mb-2">
                 <div className="new-container">New</div> <div>Introducing AI Automation </div>
             </div>
             <div className="solutions-container">
@@ -20,10 +21,9 @@ const Header = () => {
                     placeholder="Enter your email adress"
 
                 />
+                 {/* <Buttons    style={{ position: 'absolute'}} className="btn-container" nameBtn="Book a Demo"/> */}
                 <button className="btn-container"
-                    style={{
-                        position: 'absolute',
-                    }}
+                  style={{ position: 'absolute'}}
                 >
                     Book a Demo
                 </button>

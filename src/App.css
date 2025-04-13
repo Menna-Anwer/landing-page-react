@@ -1,4 +1,21 @@
-body.dark {
+.main{
+  background: #F6F6F6;;
+  padding-top: 100px;
+}
+.bg-footer {
+  background: #f4f4f4;
+  /* --background: black;
+  --foreground:  #f4f4f4 !important; */
+padding-top: 100px;
+}
+
+[data-theme="main"] {
+--background: black;
+--foreground: #f6f6f6;
+}
+
+
+main.dark {
     background-color: #111;
     color: #eee;
   }

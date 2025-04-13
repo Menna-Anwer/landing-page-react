@@ -12,7 +12,7 @@ const NavBar = () => {
   }, [])
   if (!mounted) return null
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="">
     <Container >
       <Navbar.Brand href="#">FinBiz</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
@@ -21,7 +21,7 @@ const NavBar = () => {
           className="mx-auto my-2 my-lg-0"
           style={{ maxHeight: '100px' }}
           navbarScroll >
-          <Nav.Link href="#action1">Product</Nav.Link>
+          <Nav.Link href="product">Product</Nav.Link>
           <NavDropdown title="Pages" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action4">
