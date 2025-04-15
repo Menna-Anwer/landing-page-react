@@ -8,8 +8,8 @@
   width: 625px;
   height: 500px;
   border-radius: 20px;
-  border: 1px solid #f2f2f2;
-  background: white;
+  border: 1px solid var( --border) !important;
+  background: var( --bg-dashboard  )!important;
 }
 
 .text1 {
@@ -29,7 +29,7 @@
   width: 245px;
   height: 170px;
   border-radius: 20px;
-  background: #f4f4f4;
+  background: var( --bg-card) !important;
   padding-left: 30px;
   padding-top: 23px;
   left: 25px;
@@ -41,8 +41,8 @@
   width: 290px;
   height: 263px;
   border-radius: 20px;
-  background: #f4f4f4;
-  padding: 10px;
+  background: var( --bg-card) !important;
+  padding: 15px;
   right: 35px;
   top: 40px;
 }
@@ -94,6 +94,7 @@
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 0%;
+  color: var( --h-color) !important;
 }
 
 .div-cont {
@@ -117,14 +118,15 @@
   width: 625px;
   height: 500px;
   border-radius: 20px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var( --border) !important;
+  background: var( --bg-dashboard  )!important;
   padding: 55px;
-  background: white;
 }
 .header {
   font-weight: 700;
   font-size: 45px;
   line-height: 72px;
+  color: var( --h-color) !important;
 }
 .text2 {
   color: #828282;
@@ -139,5 +141,6 @@
   border-radius: 100px;
   background: #1d1c20;
   margin-top: 30px;
-  
+  border: 0px;
+  position: static;
 }

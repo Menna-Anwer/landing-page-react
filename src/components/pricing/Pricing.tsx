@@ -14,13 +14,13 @@ const Pricing = () => {
             </div>
            <Row className="g-3">
                     <Col md={4}>
-                        <PricingCard title="Basic" className="className1" value="$499" data={data1} color="#1D1C20" nameBtn="Get started" background="#FFFFFF"/>
+                        <PricingCard title="Basic" className="className1" value="$499" data={data1} color="var( --h-color)" nameBtn="Get started" background="#FFFFFF"/>
                     </Col>
                     <Col md={4}>
-                        <PricingCard title="Pro" className="className2"  value="$499" data={data2} color="#729F19" nameBtn="Get started"  background="#1D1C20" />
+                        <PricingCard title="Pro" className="className2"  value="$499" popular="Popular" data={data2} color="#729F19" nameBtn="Get started"  background="#1D1C20" />
                     </Col>
                     <Col md={4}>
-                        <PricingCard title="Enterprise" className="className3"  value="$999" data={data3} color="#1D1C20" nameBtn="Contact Us"  background="#A3DC2F"/>
+                        <PricingCard title="Enterprise" className="className3"  value="$999" data={data3} color=" var( --h-color)" nameBtn="Contact Us"  background="#A3DC2F"/>
                     </Col>
                 </Row>
     </Container>

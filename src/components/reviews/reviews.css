@@ -4,9 +4,9 @@
   border-radius: 20px;
   display: block;
   margin: auto;
-  background: #fefefc;
-  border: 1px solid black;
-  color: black;
+  background: var( --bg-AI) !important;
+  border: 1px solid var( --border) !important;
+  color: var(  --tx-AI) !important;
   font-size: 18px;
   margin-top: 200px;
 }
@@ -18,6 +18,7 @@
   text-align: center;
   vertical-align: middle;
   margin-top: 30px;
+  color: var( --h-color) !important;
 }
 .reviews-text {
   font-weight: 400px;

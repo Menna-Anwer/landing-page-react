@@ -9,7 +9,7 @@ import Pricing from "../components/pricing/Pricing"
 
 const LandingPage = () => {
   return (
-    <div className="main">
+    <div className="main" >
       <Header />
       <Dashboard />
       <Menu />
@@ -17,7 +17,6 @@ const LandingPage = () => {
       <Reviews />
       <Pricing />
       <CTA />
-
     </div>
   )
 }

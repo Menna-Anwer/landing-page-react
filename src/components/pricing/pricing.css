@@ -2,9 +2,9 @@
   width: 298px;
   height: 60px;
   text-align: center;
-  background: #ffffff;
+  background: var( --bg-nv)!important;
   border-radius: 64px;
-  color: #000;
+  color: var( --h-color)!important;;
   border: 1px solid black;
   margin-top: 195px;
 }
@@ -12,17 +12,17 @@
   width: 298px;
   height: 60px;
   text-align: center;
-  background: #1d1c20;
+  background: var( --h-color )!important;
   border-radius: 64px;
   border: 0px;
-  color: #ffffff;
+  color:  var(  --bg-nv )!important;
   margin-top: 120px;
 }
 .className3 {
   width: 298px;
   height: 60px;
   text-align: center;
-  background: #a3dc2f;
+  background: #a3dc2f !important;
   border-radius: 64px;
   color: #000;
   border: 0px;

@@ -26,8 +26,14 @@
 } */
 
 .cardSwiper{
+    border: 1px solid var( --border) !important;
+    background: var( --bg-card  )!important;
+    border-radius: 20px !important;
     position: relative;
     height: 210px;
+}
+.text-swiper{
+    color: var( --h-color) !important;
 }
  .swiper-img{
     width: 45px;

@@ -1,21 +1,24 @@
 .menu-container {
   width: 510px;
   height: 59px;
-  border: 1px solid #a3dc2f;
+  border: 1px solid white;
   font-weight: 500;
   font-size: 18px;
   border-radius: 48px;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 80px;
+  background: #ffffff3d;
 }
 .nav {
   margin-left: 55px;
 }
 .nav-link {
+  color: white important;
   padding: 10px;
 }
 .nav-link:hover {
-  background-color: #a3dc2f;
+  background-color: white;
+  color: black !important;
   border-radius: 48px;
 }

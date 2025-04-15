@@ -1,13 +1,16 @@
 .statCard-container{
     height: 170px;
-    border: 1px solid #E0E0E0;
-    border-radius: 30px;
+    background: var( --bg-card) !important;
+    border: 1px solid var( --border) !important;
+    border-radius: 20px !important;
     padding-top: 10px;
+
 }
-h6{
-    color:#4F4F4F;
+.statCard-title{
+    color: var(   --text-color2) !important;
     font-size: 20px;
 }
-h3{
+.value{
+    color: var( --h-color) !important;
     font-size: 50px;
 }

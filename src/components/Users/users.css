@@ -5,7 +5,8 @@
     margin: auto;
     height: 264px;
     align-items: center;
-    background: #F4F4F4;
+    background: var( --bg-dashboard  )!important;
+    border: 1px solid var( --border) !important;
     border-radius: 50%;
     margin-top: 30px;
 }
@@ -17,15 +18,13 @@
     margin: auto;
     height: 208px;
     align-items: center;
-    background: #E5EADB;
+    background: var( --bg-card) !important;
+    border: 1px solid var( --border) !important;
     border-radius: 50%;
     right: 28px;
     padding-bottom: 20px;
 }
 
-img{
- 
-}
 .img1{
     width: 35px;
     height:35px ;

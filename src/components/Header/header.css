@@ -3,7 +3,7 @@
   align-items: center;
   width: 300px;
   margin: auto;
-  background: white;
+  background: var(--bg-AI) !important;
   border: 1px solid black;
   padding: 3px;
   border-radius: 25px;
@@ -16,16 +16,26 @@
   color: white;
   margin-right: 5px;
 }
+.text-new-container {
+  color: var(--tx-AI) !important;
+}
+.icon {
+  color: #a3dc2f;
+  font-size: 20px;
+  margin-left: 7px;
+}
 .solutions-container {
   text-align: center;
   width: 55%;
   margin: auto;
 }
-h1 {
+.solutions-heading {
   font-size: 72px;
+  color: var(--h-color) !important;
 }
-p {
-  color: #828282;
+.solutions-text {
+  color: var(--text-color2) !important;
+  font-size: 20px;
 }
 .input-container {
   position: relative !important;
@@ -34,23 +44,28 @@ p {
   height: 72px;
 }
 .form-control {
-    height: 65px;
-    border-radius: 50px;
-    padding-left: 30px;
+  height: 65px;
+  border-radius: 50px;
+  padding-left: 30px;
+  border: 0px;
+  /* background: var(--bg-input) !important;
+  color: var(--text-color2) !important; */
 }
 .btn-container {
   position: "absolute" !important;
   right: 0px !important;
-  top: 44% !important;
+  top: 45% !important;
   transform: translateY(-50%);
   background: black;
   color: white;
   width: 170px;
-  height: 60px;
+  height: 65px;
+  border: 0px;
   border-radius: 50px;
 }
-.text-user{
-    text-align: center;
-    margin-top: 42px;
-    font-size: 13px;
+.text-user {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-color2) !important; 
 }

@@ -51,11 +51,6 @@ const TinyLineChart = () => {
           data through our analytics tools.</p>
           <div className="lineChart1">
             <Line data={data} options={options} />
-            {/* <ResponsiveContainer>
-              <LineChart data={data}>
-                <Line type="monotone" dataKey="value" stroke="#8884d8" strokeWidth={5} dot={false} />
-              </LineChart>
-            </ResponsiveContainer> */}
           </div>
         </Card.Body>
       </Card>
@@ -64,11 +59,7 @@ const TinyLineChart = () => {
           <p className="text-muted2">Bring harmony to team expenses with budget limits and real-time monitiring. Freedom for your staff. Peace of mind for you.</p>
           <div className="lineChart2">
             <Line data={data2} options={options} />
-            {/* <ResponsiveContainer>
-              <LineChart data={data}>
-                <Line type="monotone" dataKey="value" stroke="#8884d8" strokeWidth={5} dot={false} />
-              </LineChart>
-            </ResponsiveContainer> */}
+  
           </div>
         </Card.Body>
       </Card>

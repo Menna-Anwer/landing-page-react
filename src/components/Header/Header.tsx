@@ -1,17 +1,19 @@
 import { Container } from "react-bootstrap"
 import Team from "../team/Team"
 import "./header.css"
+import Buttons from "../Buttons/Buttons"
+import { FaArrowRightLong } from "react-icons/fa6"
 // import Buttons from "../Buttons/Buttons"
 const Header = () => {
     return (
         <Container>
             <div className="automation-container mb-2">
-                <div className="new-container">New</div> <div>Introducing AI Automation </div>
+                <div className="new-container">New</div > <div  className="text-new-container">Introducing AI Automation <FaArrowRightLong  className="icon"/> </div>
             </div>
             <div className="solutions-container">
-                <h1>The Finance Solutions
+                <h1 className="solutions-heading">The Finance Solutions
                     For Your Business</h1>
-                <p>Empower your finance team. The onestop plateform for all financial management of small and medium-sized business.</p>
+                <p className="solutions-text">Empower your finance team. The onestop plateform for all financial management of small and medium-sized business.</p>
             </div>
 
             <div className="input-container my-5">
@@ -19,14 +21,14 @@ const Header = () => {
                     type="text"
                     className="form-control"
                     placeholder="Enter your email adress"
-
                 />
-                 {/* <Buttons    style={{ position: 'absolute'}} className="btn-container" nameBtn="Book a Demo"/> */}
-                <button className="btn-container"
-                  style={{ position: 'absolute'}}
+                 <Buttons   className="btn-container" nameBtn="Book a Demo"/>
+                {/* <button className="btn-container"
+                //   style={{ position: 'absolute' }}
+                  style={{ backgroundColor: 'var(--button-bg-color)', color: 'var(--button-text-color)', position: 'absolute'}}
                 >
                     Book a Demo
-                </button>
+                </button> */}
             </div>
             <div>
                 <div>

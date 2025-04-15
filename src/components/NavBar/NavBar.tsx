@@ -1,7 +1,9 @@
-import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
 import "./navBar.css"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
+import Buttons from "../Buttons/Buttons"
+// import Buttons from "../Buttons/Buttons"
 const NavBar = () => {
 
   const { theme, setTheme } = useTheme()
@@ -12,7 +14,7 @@ const NavBar = () => {
   }, [])
   if (!mounted) return null
   return (
-    <Navbar expand="lg" className="">
+    <Navbar expand="lg" className="nv-container">
     <Container >
       <Navbar.Brand href="#">FinBiz</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
@@ -37,48 +39,12 @@ const NavBar = () => {
           <Nav.Link href="#action2">Pricing</Nav.Link>
 
         </Nav>  
-          <Button className ="navbar-btn"   onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} > {theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode'}</Button>
+        <Buttons className ="navbar-btn" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}  nameBtn= {theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode'} />
+          {/* <Button className ="navbar-btn"   onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} > {theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode'}</Button> */}
       </Navbar.Collapse>
     </Container>
   </Navbar>
-    // <Navbar className="">
-    //   <Container  className="navbar-container">
-    //     <Row className=""> 
-    //       <Col lg={4}> 
-    //       <Navbar.Brand href="#home">FinBiz</Navbar.Brand>
-    //       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    //       </Col>
-    //       <Col lg={8}>
-    //         <Navbar.Collapse id="basic-navbar-nav">
-    //           <Row >
-    //             <Col lg={6}>
-    //               <Nav className="me-auto">
-    //                 <Nav.Link href="#home">Product</Nav.Link>
-    //                 <NavDropdown title="Pages" id="basic-nav-dropdown">
-    //                   <NavDropdown.Item href="#action/3.1">Pages</NavDropdown.Item>
-    //                   <NavDropdown.Item href="#action/3.2">
-    //                     Another action
-    //                   </NavDropdown.Item>
-    //                   <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-    //                   <NavDropdown.Divider />
-    //                   <NavDropdown.Item href="#action/3.4">
-    //                     Separated link
-    //                   </NavDropdown.Item>
-    //                 </NavDropdown>
-    //                 <Nav.Link href="#link">Integrations</Nav.Link>
-    //                 <Nav.Link href="#link">Blog</Nav.Link>
-    //                 <Nav.Link href="#link">Pricing</Nav.Link>
-    //               </Nav>
-    //             </Col>
-    //             <Col lg={6}>
-    //               <Button variant="light">Light</Button>
-    //             </Col>
-    //           </Row>
-    //         </Navbar.Collapse>
-    //       </Col>
-    //     </Row>
-    //   </Container>
-    // </Navbar>
+
   )
 }
 

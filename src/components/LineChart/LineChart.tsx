@@ -42,17 +42,17 @@ const LineChart = () => {
     <div className='chart-container'>
       <Row className='mb-3'>
         <Col lg={7}>
-          <h6>Spend Overview</h6>
+          <h6 className='chart-header'>Spend Overview</h6>
         </Col>
         <Col lg={5}>
-         <div className='d-flex justify-content-between'>
-          <p>Daily</p>
-          <p>Weekly</p>
-          <p>Monthly</p>
-          <p>Yearly</p>
-             </div>
+          <div className='d-flex justify-content-between'>
+            <p className='chart-text'>Daily</p>
+            <p className='chart-text'>Weekly</p>
+            <p className='chart-text'>Monthly</p>
+            <p className='chart-text'>Yearly</p>
+          </div>
         </Col>
-    
+
       </Row>
       <Line data={data} options={options} />
     </div>

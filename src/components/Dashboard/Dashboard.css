@@ -1,7 +1,7 @@
 .dashboard-container{
-    background-color: #f3f2f0;
+    background-color: var( --bg-dashboard) !important;
     border-radius: 20px;
     margin: auto;
     padding: 25px;
-    box-shadow:  7px 12px 27px 9px #ccc9c9
+    box-shadow: var( --box-shadow) !important;
 }

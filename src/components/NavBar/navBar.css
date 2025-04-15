@@ -1,8 +1,19 @@
+.nv-container{
+    background: var(--bg-nv) !important;
+  
+}
+.navbar-brand{
+    color:  var(  --h-color) !important;
+}
+.nav-link{
+    color:  var( --text-color) !important;
+}
 .navbar-btn{
-    background: #F6F6F6;
+    background:var( --bg-color) !important;
     border-radius:  35px;
     border: 1px solid black;
     width: 136px;
     height: 50px;
-    color: black;
+    color:  var(  --h-color) !important;
+    position: static!important ;
 }

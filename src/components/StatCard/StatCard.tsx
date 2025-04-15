@@ -6,12 +6,12 @@ const StatCard = ({ title, value, data, color, number }: any) => {
     <Card className="statCard-container shadow-sm rounded-3">
       <Card.Body>
         <div className="d-flex justify-content-between">
-          <h6 className="text-muted">{title}</h6>
-          <p style={{ color: color }}>{number}</p>
+          <h6 className="statCard-title">{title}</h6>
+          <p  style={{ color: color }}>{number}</p>
         </div>
         <div className="d-flex justify-content-between align-items-center">
           <div>
-            <h3>{value}</h3>
+            <h3 className="value">{value}</h3>
           </div>
           <div style={{ width: 50, height: 50 }}>
             <ResponsiveContainer>

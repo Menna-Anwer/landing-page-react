@@ -5,7 +5,7 @@
   padding: 15px;
   justify-content: space-between;
   margin-top: 100px;
-  background: white;
+  background: var(--bg-nv )!important;
 
 }
 .text-CTA-container{
@@ -14,6 +14,7 @@
     padding-left: 50px;
 }
 .text-CTA {
+  color: var( --h-color) !important;
   font-weight: 700;
   font-size: 40px;
 }
@@ -31,7 +32,8 @@
   width: 170px;
   height: 50px;
   border-radius: 78px;
-  background: #1d1c20;
+  color: var( --bg-nv)!important;
+  background: var( --h-color) !important;
   margin-top: 30px;
   border: 0px;
 }

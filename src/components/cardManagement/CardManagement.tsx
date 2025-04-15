@@ -1,5 +1,6 @@
 import { Button } from 'react-bootstrap'
 import './cardManagement.css'
+import Buttons from '../Buttons/Buttons'
 const CardManagement = () => {
     return (
         <div className='cardManagement'>
@@ -50,7 +51,9 @@ const CardManagement = () => {
                     real-time monitiring. Freedom for your staff. Peace of
                     mind for you.
                 </div>
-                <Button className='btn-container2'>Explore more</Button>
+                {/* <Button className='btn-container2'>Explore more</Button> */}
+                <Buttons className ="btn-container2" nameBtn="Explore more" />
+
             </div>
         </div>
     )

@@ -1,20 +1,21 @@
 .chart-container{
     width: 750px;
     height: 472px;
-    border: 1px solid #F2F2F2;
+    background: var( --bg-card) !important;
+    border: 1px solid var( --border) !important;
+    border-radius: 20px !important;
     padding: 15px;
     padding-top: 25px;
     border-radius: 20px;
     margin-left: 40px;
-    background: white;
 }
-h6{
+.chart-header{
     font-size: 20px;
-    color:#F5F5F5;
+    color: var( --h-color) !important;
     font-weight: 400;
 }
-p{
+.chart-text{
     font-size: 14px;
-    color:#F5F5F5;
+    color: var( --h-color) !important;
     font-weight: 400;
 }
